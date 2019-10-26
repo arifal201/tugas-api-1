@@ -10,20 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_24_174422) do
+ActiveRecord::Schema.define(version: 2019_10_24_172701) do
 
   create_table "plantation_models", force: :cascade do |t|
     t.string "provinsi"
     t.integer "jumlah"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "table_plantation", force: :cascade do |t|
-    t.string "provinsi"
-    t.integer "jumlah_perusahaan"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end
