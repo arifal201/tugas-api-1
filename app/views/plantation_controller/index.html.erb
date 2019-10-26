@@ -1,0 +1,17 @@
+<h1>PlantationController#index</h1>
+<p>Find me in app/views/plantation_controller/index.html.erb</p>
+<div>
+    <h1>Tabel Perusahaan Perkebunan di Indonesia</h1>
+    <table>
+        <tr>
+            <th>Provinsi</th>
+            <th>Jumlah Perusahaan</th>
+        </tr>
+        <% @plantationmodel.each do |f| %>
+        <tr>
+            <td><%= f.provinsi %></td>
+            <td><%= f.jumlah %></td>
+        </tr>
+        <% end %>
+    </table>
+</div>

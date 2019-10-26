@@ -1,0 +1,2 @@
+class PlantationModel < ApplicationRecord
+end

@@ -1,0 +1,7 @@
+{
+  "name": "plantation",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.8.0"
+  }
+}
