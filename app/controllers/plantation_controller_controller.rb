@@ -4,7 +4,6 @@ class PlantationControllerController < ApplicationController
   end
   
   def chart
-    @plantationmodel = PlantationModel.all
   end
   
 end
