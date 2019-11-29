@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'plantation_controller#index'
   get 'plantation_controller/chart', to: 'plantation_controller#chart' 
   resources :plantation_controller
+  resources :admins
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   namespace :api do

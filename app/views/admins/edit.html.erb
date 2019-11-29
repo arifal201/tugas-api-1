@@ -1,0 +1,15 @@
+<h1>Editing Admin</h1>
+
+<%= form_for(@admin, url: admin_path(@admin), method: :patch) do |form| %>
+  <div class="actions">
+    <%= form.text_field :provinsi %>
+  </div>
+
+  <div class="actions">
+    <%= form.text_field :jumlah %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
