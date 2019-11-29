@@ -20,6 +20,21 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   username: <%= ENV['POSTGRES_USER'] %>
+#   password: <%= ENV['POSTGRES_PASSWORD'] %>
+#   pool: 5
+#   timeout: 5000
+#   host: <%= ENV['POSTGRES_HOST'] %>
+#   database: <%= ENV['POSTGRES_DB'] %>
+#   url: <%= ENV['DATABASE_URL'] %>
+
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  database: dd121lghqhpdfd
+  pool: 5
+  username: umthsbrffwrdld
+  password: d90f21659a5f00ae20121f23db8ff590a8b62ae02dc6b8cb0306e526b2894b06
